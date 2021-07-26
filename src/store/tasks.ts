@@ -2,7 +2,7 @@ import {createSubstore} from 'storeon-substore'
 import {StoreonStore} from 'storeon'
 import {State, Events} from './store'
 import {Task} from '../interfaces/tasks'
-const sliceName = 'account'
+const sliceName = 'tasks'
 
 export interface TasksModuleState {
   [sliceName]: {

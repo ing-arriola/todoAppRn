@@ -11,9 +11,7 @@ const Tab = createMaterialTopTabNavigator()
 
 const TabsNavigator = () => {
   return (
-    <Tab.Navigator
-      style={{top: 50}}
-      tabBarOptions={{labelStyle: {fontSize: 8}}}>
+    <Tab.Navigator tabBarOptions={{labelStyle: {fontSize: 8.5}}}>
       <Tab.Screen name="All" component={AllTasksScreen} />
       <Tab.Screen name="Completed" component={CompletedTasksScreen} />
       <Tab.Screen name="Uncompleted" component={UncompletedTasksScreen} />
